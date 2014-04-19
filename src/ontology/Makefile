@@ -19,7 +19,7 @@ to.obo: to-edit.owl
 # ----------------------------------------
 # Imports
 # ----------------------------------------
-all_imports: imports/po_import.owl imports/pato_import.owl
+all_imports: imports/po_import.owl imports/pato_import.owl imports/chebi_import.owl imports/eo_import.owl imports/go_import.owl
 
 KEEPRELS = BFO:0000050 BFO:0000051 RO:0002202 immediate_transformation_of
 
@@ -27,8 +27,10 @@ mirror/%.owl:
 	owltools $(OBO)/$*.owl --remove-annotation-assertions -l --make-subset-by-properties -f $(KEEPRELS) --set-ontology-id $(OBO)/$*.owl -o $@
 .PRECIOUS: mirror/%.owl
 
-imports/%_import.owl: to-edit.owl
-	owltools --use-catalog $< $(OBO)/$*.owl --add-imports-from-supports --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/go/extensions/$@ -o $@
+imports/%_import.owl: to-edit.owl mirror/%.owl
+	owltools --use-catalog --map-ontology-iri $(OBO)/to/imports/$*_import.owl mirror/$*.owl $<  --add-imports-from-supports --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/go/extensions/$@ -o $@
+
+imports/oba_import.owl:
 
 # ----------------------------------------
 # Diffs

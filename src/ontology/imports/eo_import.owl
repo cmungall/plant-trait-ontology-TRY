@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/go/extensions/imports/eo_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/go/extensions/imports/eo_import.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/extensions/imports/eo_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0001001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0001001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007359"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007049">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007147"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007058">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil pH environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007049"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007059">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acidic pH soil environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007058"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007134"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007062">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basic pH soil environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007058"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007133"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007064">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecological environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0001001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007074">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auxin treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007165"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007109">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ssRNA positive-strand virus with no DNA stage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007210"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007110">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dsRNA virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007210"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007127">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne spp.</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007337"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007133">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basic pH growth media environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007171"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007134">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acidic pH growth media environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007171"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007147">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant growth medium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007191"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007151">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007316"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007154">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation quality treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007151"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007165">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth hormone treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007189"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007167">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pesticide treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007189"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007171">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pH regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007189"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007180">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2,4-dichlorophenoxyacetic acid treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007074"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007183"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007183">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">herbicide treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007167"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007189">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007191"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007191">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abiotic plant treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0001001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007195">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice ragged stunt virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007110"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007196">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">light regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007154"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007198">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007316"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007207">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">red light regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007221"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007210">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virus plant treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007357"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007218">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blue light regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007221"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007221">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visible light regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007196"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007222">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UV light regimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007196"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007316">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical plant treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007191"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007318">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice yellow mottle virus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007109"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007337">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nematoda</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007349"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007349">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metazoan plant treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007357"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007357">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biotic plant treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0001001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007359">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant experimental condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007371">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne javanica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007127"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007372">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne incognita</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007127"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007396">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flood prone region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007064"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007404">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drought environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007198"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007409">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brassinosteroid treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007165"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 0.2.1-SNAPSHOT) http://owlapi.sourceforge.net -->
+
