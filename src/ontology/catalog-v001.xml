@@ -1,0 +1,6 @@
+
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/to.owl" uri="to-edit.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/to/imports/pato_import.owl" uri="imports/pato_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/to/imports/po_import.owl" uri="imports/po_import.owl"/>
+</catalog>
